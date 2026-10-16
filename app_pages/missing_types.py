@@ -32,8 +32,7 @@ with t_theory:
     )
     st.latex(r"\textbf{MCAR:}\quad P(R \mid Y_{obs}, Y_{mis}) = P(R)")
     st.latex(r"\textbf{MAR:}\quad P(R \mid Y_{obs}, Y_{mis}) = P(R \mid Y_{obs})")
-    st.latex(r"	extbf{MNAR:}\quad P(R \mid Y_{obs}, Y_{mis}) 
-eq P(R \mid Y_{obs})")
+    st.latex(r"\textbf{MNAR:}\quad P(R \mid Y_{obs}, Y_{mis}) \neq P(R \mid Y_{obs})")
     st.caption(
         "أي أن احتمال الفقد يبقى معتمدًا على القيمة المفقودة نفسها حتى بعد "
         "التحكّم في كل ما هو مرصود."

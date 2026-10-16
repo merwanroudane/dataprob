@@ -63,7 +63,7 @@ t_theory, t_code, t_anim, t_decide, t_ref = ui.lesson_tabs()
 # ============================================================== النظرية
 with t_theory:
     st.subheader("١. z-score — والفخّ الذي فيه", divider="blue")
-    st.latex(r"z_i = rac{x_i - ar{x}}{s}, \qquad |z_i| > 3 \;\Rightarrow\; 	ext{outlier}")
+    st.latex(r"z_i = \frac{x_i - \bar{x}}{s}, \qquad |z_i| > 3 \;\Rightarrow\; \text{outlier}")
     st.caption("العتبة المعتادة ثلاثة انحرافات معيارية — وسنرى بعد قليل لماذا هي هشّة.")
     st.markdown(
         """
