@@ -1,0 +1,17 @@
+# المنصّة التعليمية: تحضير البيانات وتنظيفها للتعلّم الآلي
+# الحزم الأساسية المطلوبة للتشغيل
+streamlit>=1.57
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+scipy>=1.11
+altair>=5.0
+
+# حزم تُذكر في الدروس (اختيارية — الأكواد معروضة للشرح فقط)
+# imbalanced-learn>=0.12
+# missingno>=0.5
+# category_encoders>=2.6
+# feature-engine>=1.6
+# rapidfuzz>=3.0
+# statsmodels>=0.14
+# ydata-profiling>=4.6

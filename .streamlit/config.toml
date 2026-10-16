@@ -1,0 +1,84 @@
+[theme]
+base = "light"
+
+primaryColor = "#4C6EF5"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F6FF"
+textColor = "#16233A"
+linkColor = "#1C7ED6"
+borderColor = "#DCE6FA"
+
+codeBackgroundColor = "#F6F8FD"
+codeTextColor = "#0B3C5D"
+
+dataframeBorderColor = "#DCE6FA"
+dataframeHeaderBackgroundColor = "#EEF3FF"
+
+redColor = "#E8590C"
+orangeColor = "#F08C00"
+yellowColor = "#F2B705"
+greenColor = "#0CA678"
+blueColor = "#1C7ED6"
+violetColor = "#7048E8"
+grayColor = "#5C6B84"
+
+redBackgroundColor = "#FFF0E8"
+orangeBackgroundColor = "#FFF6E5"
+yellowBackgroundColor = "#FFF9E0"
+greenBackgroundColor = "#E6F8F2"
+blueBackgroundColor = "#E7F2FD"
+violetBackgroundColor = "#F0EBFF"
+grayBackgroundColor = "#F1F4F9"
+
+chartCategoricalColors = [
+  "#4C6EF5",
+  "#0CA678",
+  "#F08C00",
+  "#E64980",
+  "#7048E8",
+  "#15AABF",
+  "#E8590C",
+]
+
+chartSequentialColors = [
+  "#F3F7FF",
+  "#DCE9FF",
+  "#BFD8FF",
+  "#9CC2FF",
+  "#75A8FB",
+  "#4C8DF2",
+  "#3570DD",
+  "#2756B8",
+  "#1B3F8F",
+  "#122A63",
+]
+
+font = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap"
+headingFont = "Cairo:https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;900&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+
+baseFontSize = 16
+baseFontWeight = 400
+codeFontSize = "0.86rem"
+headingFontSizes = ["34px", "27px", "22px", "18px", "16px", "14px"]
+headingFontWeights = [700, 700, 700, 600, 600, 600]
+linkUnderline = false
+
+baseRadius = "12px"
+buttonRadius = "10px"
+showWidgetBorder = true
+showSidebarBorder = true
+
+[theme.sidebar]
+backgroundColor = "#EDF3FF"
+secondaryBackgroundColor = "#DFE9FF"
+codeBackgroundColor = "#E3EBFD"
+textColor = "#16233A"
+borderColor = "#CBDAF7"
+primaryColor = "#4C6EF5"
+
+[server]
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
